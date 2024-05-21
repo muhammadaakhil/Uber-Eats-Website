@@ -1,0 +1,377 @@
+
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+/* Navigation */
+
+nav{
+    position: fixed;
+    width: 100%;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 70px;
+    top: 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.15);
+}
+
+header.sticky{
+    background: #fff;
+}
+
+.header{
+    z-index: 9;
+    justify-content: space-between;
+}
+
+.firstnav i{
+    font-size: 20px;
+}
+
+.num{
+    color: black;
+    font-size: 25px;
+    font-weight: 500;
+    padding-left: 20px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.navigation{
+    display: flex;
+   align-items: center;
+   border: none;
+   margin-right: 50px;
+   gap: 20px;
+}
+
+.navigation button{
+    width: 70px;
+    height: 40px;
+    border-radius: 500px;
+    border: none;
+}
+
+.num{
+    margin-inline-end: auto;
+    text-decoration: none;
+}
+
+.firstnav{
+    margin-left: 50px;
+}
+
+.navlogin a{
+    color: black;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.navsign a{
+    color: #fff;
+    font-weight: 500;
+    font-size: 15px;
+}
+
+/* Home */
+
+.homepage{
+    background-image: url(image1.webp);
+    height: 102vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 40px;
+}
+
+.homeorder{
+    position: absolute;
+    margin-top: 250px;
+    margin-left: 90px;
+    width: 80%;
+    height: 80%;
+}
+
+.threeboxbar{
+    display: flex;
+    margin-top: 50px;
+}
+
+.homeorder h1{
+    font-size: 60px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.threebox{
+    width: 500px;
+    height: 50px;
+    background-color: #fff;
+    padding: 8px 16px;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.location{
+    padding-right: 20px;
+}
+
+.threebox i{
+    font-size: 19px;
+    padding-top: 10px;
+}
+
+.threebox input{
+    font-size: 19px;
+    font-weight: 500;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.time{
+    width: 220px;
+    background-color: #fff;
+    height: 50px;
+    box-sizing: border-box;
+    display: flex;
+    margin-left: 10px;
+}
+
+.time i{
+    padding-top: 19px;
+    margin-left: 10px;
+}
+
+.time a{
+    font-size: 19px;
+    padding-top: 10px;
+    font-weight: 500;
+    margin-left: 15px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.anglesdown{
+    padding-left: 10px;
+}
+
+.homebutton{
+    margin-left: 10px;
+}
+
+.homebutton button{
+    width: 140px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+}
+
+.homebutton a{
+    font-size: 19px;
+}
+
+.homeorder p{
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 20px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.sign{
+    padding-left: 10px;
+}
+
+.signhome{
+    display: flex;
+}
+
+.imgsection{
+    width: 100%;
+    display: flex;
+}
+
+.img img{
+   width: 430px;
+   height: 250px;
+}
+
+.feed{
+    font-size: 28px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight: 500;
+}
+
+.createacc{
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-weight:500;
+    font-size: 19px;
+    text-decoration: underline;
+}
+
+.secondimg{
+    margin-left: 30px;
+}
+
+.secondimg img{
+    width: 400px;
+    height: 250px;
+}
+
+.thirdimg{
+    margin-left: 20px;
+}
+
+/* Map section */
+
+.map{
+    margin-top: 150px;
+    padding: 0px 40px;
+}
+
+.mapheading{
+    display: flex;
+    justify-content: space-between;
+}
+
+.mapheading h2{
+    font-weight: 700;
+    font-size: 36px;
+    margin-bottom: 20px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.mapheading a{
+    text-decoration: underline;
+    font-weight: 500;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.maplocation iframe{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.spots{
+    display: flex;
+    width: 87%;
+    justify-content: space-between;
+}
+
+.firstcolumn{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.firstcolumn a{
+    font-size: 17px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.secondspaces{
+    margin-top: 50px;
+}
+
+.line{
+    color: rgb(156, 154, 154);
+    margin-top: 100px;
+}
+
+/* Footer */
+
+.footer{
+    margin-top: 70px;
+    padding: 0px 40px;
+}
+
+.footerdiv{
+    display: flex;
+    margin-left: 30px;
+}
+
+.footerimages{
+    width: 40%;
+}
+
+.footerplayimg{
+    margin-top: 190px;
+    width: 60%;
+}
+
+.footerplayimg img{
+    width: 140px;
+    height: 40px;
+}
+
+.playstore{
+    padding-left: 10px;
+}
+
+.parent{
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-left: 100px;
+}
+
+.paragraph{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.paragraph a{
+    font-size: 17px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+.line2{
+    color: rgb(219, 213, 213);
+    margin-top: 20px;
+    width: 94%;
+    margin-left: 35px;
+}
+
+.lastfooter{
+    height: 140px;
+}
+
+.footericons{
+    margin-left: 40px;
+}
+
+.footeritems{
+    margin-top: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footeritems i{
+    margin-right: 20px;
+    font-size: 20px;
+}
+
+.footerprivacy{
+    display: flex;
+    gap: 40px;
+    font-size: 14px;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 40px;
+}
+
+.last{
+    margin-top: 20px;
+    width: 100%;
+    font-size: 14px;
+}
+
+.twoparalast{
+    display: flex;
+    margin-left: auto;
+    width: max-content;
+    font-family:  system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    margin-right: 40px;
+}
+
+.one{
+    margin-right: 50px;
+}
