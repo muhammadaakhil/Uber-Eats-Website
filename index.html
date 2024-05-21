@@ -14,7 +14,7 @@
     <!-- Navigation -->
     <section>
         <header class="sticky">
-            <nav class="header">
+            <nav id="navchange" class="header">
                 <div class="firstnav">
                     <i class="fa-solid fa-bars"></i>
                     <a class="num" href="#">uber Eats</a>
@@ -265,6 +265,12 @@
         window.addEventListener("scroll",function(){
             var header = document.querySelector("header");
             header.classList.toggle("sticky",window.scrollY>0);
+            headerdiv=document.getElementById("navchange");
+            if(window.scrollY>0){
+                headerdiv.style.background ="#fff";
+            }else{
+                headerdiv.style.background="transparent";
+            }
         })
     </script>
 </body>
